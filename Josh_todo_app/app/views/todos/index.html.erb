@@ -1,0 +1,7 @@
+<title>Josh's Todo App</title>
+<h1>Josh's Todo App</h1>
+<p>All my todos here</p>
+ <% @todo_items.each do |yo| %> 
+     <li> <%= yo.todo_item %> </li>
+<% end %>
+ <a href="/todos/delete">Delete last todo</a>
