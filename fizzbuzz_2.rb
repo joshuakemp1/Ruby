@@ -4,7 +4,7 @@ for numbers in 1..100
 
     elsif numbers % 5 == 0
         puts "Buzz"
-
+binding.pry
     elsif numbers % 3 == 0
         puts "Fizz"
 
